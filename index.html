@@ -7,23 +7,28 @@
 
     <link rel="stylesheet" href="styles.css">
 
+    <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!---------- TITLE & NAV ----------->
     <header>
         <h1 class="site-title">
             <span class="site-title-text">built by</span>
             <img class="title-logo" src="./src/logo.png" alt="Makaila Agulto logo">
         </h1>
+        
         <nav>
             <a href="#contact">Contact</a>
             <a href="#projects">Projects</a>
             <a href="#about">About</a>
         </nav>
     </header>
+    
     <main>
+        <!---------- HERO SECTION ----------->
         <section class="container" id="hero">
             <div class="hero-content">
                 <div class="hero-title">
@@ -34,11 +39,16 @@
             </div>
         </section>
 
+        <!---------- CONTACT SECTION ----------->
         <section class="container" id="contact">
+            
+            <!----- CONTACT CONTENT ----->
             <div class="contact-content">
                 <h2>Get In Touch</h2>
                 <p>I’m still early in my developer journey, but I’m always open to learning, connecting, and hearing from people who want to follow along or offer guidance.</p>
             </div>
+
+            <!----- CONTACT BUTTONS ----->
             <div class="contact-buttons">
                 <a href="mailto:makailaagulto@gmail.com">Email</a>
                 <a href="https://www.linkedin.com/in/makaila-agulto/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
@@ -46,18 +56,27 @@
             </div>
         </section>
 
+        <!---------- PROJECTS SECTION ----------->
         <section class="container" id="projects">
+            <!----- SECTION HEADER ----->
             <h2>Projects</h2>
-            <p>A small collection of web projects I'm building as I learn HTML, CSS, responsive design, and front-end development.</p>
+            <p>A small collection of web projects I'm building as I learn HTML, CSS, responsive design, and front-end development.</p> 
+            
+            <!------ CARDS ------>
             <div class="project-grid">
+                <!---- CONTACT PAGE CARD ---->
                 <article class="card">
-                    <img class="card-img" src="./src/hope-harbor-contact-page-thumbnail.png" alt="Hope Harbor Contact Page project preview">
+                    <img class="card-img" src="./src/hope-harbor-contact-page-thumbnail.png" alt="Hope Harbor Contact Page project preview"> <!-- CARD THUMBNAIL -->
                     <div class="card-content">
-                        <h3>Hope Harbor Contact Form</h3>
+                        <h3>Hope Harbor Contact Form</h3> <!-- CARD HEADER -->
+                        
+                        <!-- PROJECT META -->
                         <p class="project-meta">
                             <span class="project-type">Contact Form</span>
                             <span class="project-date">JUNE 2026</span>
                         </p>
+                        
+                        <!-- TAGS -->
                         <div class="tag-list">
                             <span class="tag">HTML</span>
                             <span class="tag">CSS</span>
@@ -66,21 +85,26 @@
                         </div>
                     </div>
 
+                    <!-- LINKS / BUTTONS -->
                     <div class="card-btn-container">
                         <a class="card-btn secondary-card-btn" href="https://github.com/magulto671/hope-harbor-contact-page" target="_blank" rel="noopener noreferrer">View Repo</a>
                         <a class="card-btn" href="https://magulto671.github.io/hope-harbor-contact-page" target="_blank" rel="noopener noreferrer">Live Demo</a>
                     </div>
                 </article>
 
+                <!---- MENU PAGE CARD ---->
                 <article class="card">
-                    <img class="card-img" src="./src/miso-moon-cafe-menu-thumbnail.png" alt="Miso Moon Café Menu project preview">
-                    
+                    <img class="card-img" src="./src/miso-moon-cafe-menu-thumbnail.png" alt="Miso Moon Café Menu project preview"> <!-- CARD THUMBNAIL -->
                     <div class="card-content">
-                        <h3>Miso Moon Café Menu</h3>
+                        <h3>Miso Moon Café Menu</h3> <!-- CARD HEADER -->
+                        
+                        <!-- PROJECT META -->
                         <p class="project-meta">
                             <span class="project-type">Menu Page</span>
                             <span class="project-date">JUNE 2026</span>
                         </p>
+
+                        <!-- TAGS -->
                         <div class="tag-list">
                             <span class="tag">HTML</span>
                             <span class="tag">CSS</span>
@@ -89,6 +113,7 @@
                         </div>
                     </div>
 
+                    <!-- LINKS / BUTTONS -->
                     <div class="card-btn-container">
                         <a class="card-btn secondary-card-btn" href="https://github.com/magulto671/miso-moon-cafe" target="_blank" rel="noopener noreferrer">View Repo</a>
                         <a class="card-btn" href="https://magulto671.github.io/miso-moon-cafe" target="_blank" rel="noopener noreferrer">Live Demo</a>
@@ -97,8 +122,10 @@
             </div>
         </section>
 
+        <!---------- ABOUT SECTION ----------->
         <section class="container" id="about">
-            <h2>About Me</h2>
+            <h2>About Me</h2> <!------ SECTION HEADER ------>
+            <!------ ABOUT CONTENT ------>
             <p>
                 I’m an aspiring full-stack developer from Guam, currently learning web development through freeCodeCamp, Codecademy, and hands-on projects. I’m starting with HTML, CSS, responsive web design, and accessibility before moving deeper into JavaScript and backend development.
             </p>
@@ -107,6 +134,8 @@
             </p>
         </section>
     </main>
+
+    <!---------- FOOTER ----------->
     <footer>
         <h2>building one project at a time</h2>
         <p>&copy; 2026 Makaila Agulto</p>
