@@ -71,18 +71,7 @@ This project was built as part of my learning process while working through begi
 
 At the time of building this project, I had covered HTML basics, semantic HTML, forms and tables, accessibility basics, and early CSS topics through freeCodeCamp, including Basic CSS, colors, units, pseudo-classes and elements, design basics, and styling forms.
 
-Some styling ideas that were beyond my current skill level were created with AI assistance and used as learning examples. This includes help with:
-
-- CSS custom properties
-- Gradient styling
-- Glow effects
-- More polished card styling
-- Hover effects
-- Button styling
-- Spacing improvements
-- Responsive-friendly sizing suggestions
-- README wording and project presentation
-
+Some styling ideas that were beyond my current skill level were created with AI assistance and used as learning examples. 
 I used AI as a learning assistant while still building and editing the project structure, content, and layout decisions myself.
 
 ## What I Practiced
