@@ -4,7 +4,7 @@ A personal HTML and CSS portfolio link page built to showcase my contact links, 
 
 ## Live Demo
 
-View Live Demo[(https://magulto671.github.io/ma-portfolio-links/)]
+https://magulto671.github.io/ma-portfolio-links/
 
 ## About This Project
 
